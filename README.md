@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Wedding Photographer 🤵👰
 
-# Run and deploy your AI Studio app
+AI Wedding Photographer lets couples upload two photos (bride and groom separately) and instantly see themselves merged into a realistic wedding photo.  
+Using **Gemini 2.5 Flash Image**, the app generates wedding attire, adapts lighting and poses, and places the couple in stunning venues such as beaches, castles, gardens, or ballrooms.  
+Couples can also enter a **custom location** for a personalized preview of their big day.
 
-This contains everything you need to run your app locally.
+This project was built in **Google AI Studio App Builder** and exported to GitHub for the Google Nano Hackathon.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ttXFEs55Lvp3_yjzDTMNdAh53omYSDHO
+🔗 **Live Demo (AI Studio):**  
+[Click here to try the app](https://ai.studio/apps/drive/1eixZhJ5ujnkEHF82uFAKjSMdYuw1Whfu)
+
+---
+
+## How It Works ✨
+
+1. **Upload Photos** 📸  
+   Upload separate photos of the bride and groom.
+
+2. **Choose a Style or Venue** 🏖️🏰🌸  
+   Pick from prebuilt wedding scenes like beach, castle, garden, or ballroom, or enter a custom location.
+
+3. **Generate Wedding Preview** 🎉  
+   The AI merges both photos, generates outfits, adapts poses and lighting, and outputs a realistic wedding image ready to view, download, or share.
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+1. Install dependencies:  
+   ```bash
+   npm install
+2. Set your Gemini API key in .env.local:
+   ```bash
+   GEMINI_API_KEY=your_key_here
 3. Run the app:
-   `npm run dev`
+   ```bash
+   npm run dev
