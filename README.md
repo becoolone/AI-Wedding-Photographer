@@ -7,7 +7,7 @@ Couples can also enter a **custom location** for a personalized preview of their
 This project was built in **Google AI Studio App Builder** and exported to GitHub for the Google Nano Hackathon.
 
 🔗 **Live Demo (AI Studio):**  
-[Click here to try the app](https://ai.studio/apps/drive/1eixZhJ5ujnkEHF82uFAKjSMdYuw1Whfu)
+[Click here to try the app](https://aistudio.google.com/apps/drive/1ttXFEs55Lvp3_yjzDTMNdAh53omYSDHO?showPreview=true&showAssistant=true)
 
 ---
 
